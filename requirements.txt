@@ -1,0 +1,10 @@
+torch>=1.7.0
+torchvision>=0.8.0
+opencv-python>=4.5.0
+numpy>=1.19.0
+pillow>=8.0.0
+matplotlib>=3.3.0
+scipy>=1.6.0
+tqdm>=4.50.0
+PyQt5>=5.15.0  # GUI界面
+pyttsx3>=2.90  # 语音提示
