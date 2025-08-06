@@ -2,6 +2,18 @@
 本项目针对传统车道线检测鲁棒性较差的现象，通过运用YOLOV7与DeepLabv3+的图像深度学习算法对特定数据集进行模型训练，开发了一款能调用车载摄像头来识别道路环境，并用语音告知驾驶员偏离车道，前方车距等驾驶信息的偏离预警系统，辅助驾驶员更加安全高效的行驶。
 ![可视化](https://user-images.githubusercontent.com/89328970/220098900-36f5d74c-816d-4b66-95ee-b54f9d7d1861.JPG)
 
+## 模型权重文件下载
+
+由于体积较大，模型权重文件未直接存储在仓库中，请从 GitHub Release 页面下载：
+
+1. yolov7 权重文件 `yolov7_weights.pth`：
+   - [下载地址](https://github.com/Joecoss/Lane-detection/releases/tag/v1.0.0)
+   - 下载后放置于 `Yolov7/model_data/` 目录下
+
+2. deeplabv3+ 权重文件 `ep400-loss0.006-val_loss0.005.pth`：
+   - [下载地址](https://github.com/Joecoss/Lane-detection/releases/tag/v1.0.0)
+   - 下载后放置于 `deeplabv3/model_data/` 目录下
+
 # GUI
 ![image](https://user-images.githubusercontent.com/89328970/220099687-7fb6ae20-8f9e-4df9-b516-f2961db1353c.png)
 # 参考文献
